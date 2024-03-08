@@ -1,0 +1,21 @@
+{
+    "$schema": "./mfdevice.schema.json",
+    "Info": {
+        "Label": "Screen",
+        "Type": "1140screen",
+        "Author": "aeroniemi",
+        "URL": "https://github.com/aeroniemi/nec-aero-102-1140",
+        "Version": "1.0.0"
+    },
+    "Config": {
+        "Pins": [],
+        "isI2C": false
+    },
+    "MessageTypes": [
+        {
+            "id": 0,
+            "label": "Frequencies",
+            "description": "Set screen with frequency, e.g. 124230|122800"
+        }
+    ]
+}
